@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "solutionforest/filamentloginscreen",
+    "description": "This is my package filamentloginscreen",
     "keywords": [
-        ":vendor_name",
+        "solutionforest",
         "laravel",
-        ":package_slug"
+        "filamentloginscreen"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/solutionforest/filamentloginscreen",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/solutionforest/filamentloginscreen/issues",
+        "source": "https://github.com/solutionforest/filamentloginscreen"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "alan",
+            "email": "alan@solutionforest.net",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Solutionforest\\FilamentLoginScreen\\": "src/",
+            "Solutionforest\\FilamentLoginScreen\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Solutionforest\\FilamentLoginScreen\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Solutionforest\\FilamentLoginScreen\\FilamentLoginScreenServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentLoginScreen": "Solutionforest\\FilamentLoginScreen\\Facades\\FilamentLoginScreen"
             }
         }
     },

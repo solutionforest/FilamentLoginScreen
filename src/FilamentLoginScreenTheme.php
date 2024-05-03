@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Solutionforest\FilamentLoginScreen;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
@@ -8,17 +8,17 @@ use Filament\Support\Assets\Theme;
 use Filament\Support\Color;
 use Filament\Support\Facades\FilamentAsset;
 
-class Skeleton implements Plugin
+class FilamentLoginScreen implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filamentloginscreen';
     }
 
     public function register(Panel $panel): void
     {
         FilamentAsset::register([
-            Theme::make('skeleton', __DIR__ . '/../resources/dist/skeleton.css'),
+            Theme::make('filamentloginscreen', __DIR__ . '/../resources/dist/filamentloginscreen.css'),
         ]);
 
         $panel
@@ -29,7 +29,7 @@ class Skeleton implements Plugin
             ->dangerColor(Color::Rose)
             ->successColor(Color::Green)
             ->grayColor(Color::Gray)
-            ->theme('skeleton');
+            ->theme('filamentloginscreen');
     }
 
     public function boot(Panel $panel): void
