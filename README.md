@@ -17,20 +17,15 @@ You can install the package via composer:
 composer require solutionforest/filamentloginscreen
 ```
 
-Update tailwind.config:
-
-```bash
-'./vendor/solutionforest/filamentloginscreen/resources/views/**/*.blade.php',
-```
-
-
 ## Usage
 
 In Admin Panel
 
 ```php
- return $panel
-            ->login(LoginScreenPage::class) // See which login theme you want to use
+
+import use Solutionforest\FilamentLoginScreen\Filament\Pages\Auth\Themes\Theme1\LoginScreenPage as LoginScreenPage; // See which login theme you want to use
+
+ return $panel->login(LoginScreenPage::class) 
 ```
 
 ## Testing
