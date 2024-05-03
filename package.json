@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "npx tailwindcss -i resources/css/index.css -o resources/dist/filamentloginscreen.css --postcss --watch",
-        "build": "npx tailwindcss -i resources/css/index.css -o resources/dist/filamentloginscreen.css --postcss --minify && npm run purge"
+        "build": "npx tailwindcss -i resources/css/index.css -o resources/dist/filamentloginscreen.css --postcss --minify && npm run purge",
+        "purge": "filament-purge -i resources/dist/filamentloginscreen.css -o resources/dist/filamentloginscreen.css -v 3.x"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.4",

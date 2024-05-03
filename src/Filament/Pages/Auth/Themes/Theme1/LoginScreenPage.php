@@ -8,7 +8,7 @@ class LoginScreenPage extends Login
 {
     
     public function __construct() {
-        static::$view = 'filamentloginscreen::themes.theme1.default';
+        static::$view = 'filamentloginscreen::themes.theme1.index';
         static::$layout = 'filamentloginscreen::themes.base'; 
     }
 

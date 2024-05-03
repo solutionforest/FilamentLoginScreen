@@ -3,13 +3,10 @@
     'subheading' => null,
 ])
 
-<div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
-    <div class="relative py-3 w-screen sm:max-w-xl sm:mx-auto">
-        <div
-                class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
-        </div>
-        <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-
+<div class="font-[sans-serif] text-[#333]">
+    <div class="min-h-screen flex flex-col items-center justify-center">
+      <div class="grid md:grid-cols-2 items-center gap-4 max-w-6xl w-full p-4 m-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md">
+        <div class="md:max-w-md w-full sm:px-6 py-4">
             <section class="grid auto-cols-fr gap-y-6">
                 <x-filament-panels::header.simple
                         :heading="$heading ??= $this->getHeading()"
@@ -36,6 +33,10 @@
 
             </section>
         </div>
+        <div class="md:h-full max-md:mt-10 bg-[#000842] rounded-xl lg:p-12 p-8">
+          <img src="https://readymadeui.com/signin-image.webp" class="w-full h-full object-contain" alt="login-image" />
+        </div>
+      </div>
     </div>
-</div>
-
+  </div>
+  

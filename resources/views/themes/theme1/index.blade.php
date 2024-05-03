@@ -78,7 +78,7 @@
         </div>
     </div>
     <!-- Right Pane -->
-    <div class="w-full bg-gray-100 lg:w-1/2 flex items-center justify-center">
+    <div class=" bg-gray-100 lg:w-1/2 flex items-center justify-center">
         <div class="max-w-md w-full p-6">
             <section class="grid auto-cols-fr gap-y-6">
                 <x-filament-panels::header.simple
@@ -94,7 +94,6 @@
                     </x-slot>
                 @endif
 
-                {{ \Filament\Support\Facades\FilamentView::renderHook(\Filament\View\PanelsRenderHook::AUTH_LOGIN_FORM_BEFORE, scopes: $this->getRenderHookScopes()) }}
 
                 <x-filament-panels::form wire:submit="authenticate">
                     {{ $this->form }}
@@ -105,7 +104,7 @@
                     />
                 </x-filament-panels::form>
 
-                {{ \Filament\Support\Facades\FilamentView::renderHook(\Filament\View\PanelsRenderHook::AUTH_LOGIN_FORM_AFTER, scopes: $this->getRenderHookScopes()) }}
+                
             </section>
 
     </div>
