@@ -1,4 +1,4 @@
-# This is my package filamentloginscreen
+# Simple Change FilamentAdmin Login Page Screen
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/solutionforest/filamentloginscreen.svg?style=flat-square)](https://packagist.org/packages/solutionforest/filamentloginscreen)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/solutionforest/filamentloginscreen/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/solutionforest/filamentloginscreen/actions?query=workflow%3Arun-tests+branch%3Amain)
