@@ -17,19 +17,7 @@ class FilamentLoginScreen implements Plugin
 
     public function register(Panel $panel): void
     {
-        FilamentAsset::register([
-            Theme::make('filamentloginscreen', __DIR__ . '/../resources/dist/filamentloginscreen.css'),
-        ]);
-
-        $panel
-            ->font('DM Sans')
-            ->primaryColor(Color::Amber)
-            ->secondaryColor(Color::Gray)
-            ->warningColor(Color::Amber)
-            ->dangerColor(Color::Rose)
-            ->successColor(Color::Green)
-            ->grayColor(Color::Gray)
-            ->theme('filamentloginscreen');
+        
     }
 
     public function boot(Panel $panel): void
