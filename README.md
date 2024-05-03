@@ -22,10 +22,9 @@ composer require solutionforest/filamentloginscreen
 In Admin Panel
 
 ```php
+use Solutionforest\FilamentLoginScreen\Filament\Pages\Auth\Themes\Theme1\LoginScreenPage as LoginScreenPage; // See which login theme you want to use
 
-import use Solutionforest\FilamentLoginScreen\Filament\Pages\Auth\Themes\Theme1\LoginScreenPage as LoginScreenPage; // See which login theme you want to use
-
- return $panel->login(LoginScreenPage::class) 
+return $panel->login(LoginScreenPage::class) 
 ```
 
 ## Testing
