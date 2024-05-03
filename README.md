@@ -35,6 +35,15 @@ composer test
 
 ## Screenshots
 
+Theme 1
+<img width="1400" alt="image" src="https://github.com/solutionforest/FilamentLoginScreen/assets/68211972/a64f5333-bdaa-438b-99dd-363162f4880f">
+
+Theme 2
+<img width="1395" alt="image" src="https://github.com/solutionforest/FilamentLoginScreen/assets/68211972/b51ad589-e4f3-411a-b7f3-499139da19eb">
+
+Theme 3
+<img width="1380" alt="image" src="https://github.com/solutionforest/FilamentLoginScreen/assets/68211972/78ec4072-118d-4a27-a19a-49fec63936be">
+
 
 ## Changelog
 
