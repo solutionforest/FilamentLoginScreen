@@ -17,37 +17,20 @@ You can install the package via composer:
 composer require solutionforest/filamentloginscreen
 ```
 
-You can publish and run the migrations with:
+Update tailwind.config:
 
 ```bash
-php artisan vendor:publish --tag="filamentloginscreen-migrations"
-php artisan migrate
+'./vendor/solutionforest/filamentloginscreen/resources/views/**/*.blade.php',
 ```
 
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="filamentloginscreen-config"
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="filamentloginscreen-views"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
 
 ## Usage
 
+In Admin Panel
+
 ```php
-$filamentLoginScreen = new Solutionforest\FilamentLoginScreen();
-echo $filamentLoginScreen->echoPhrase('Hello, Solutionforest!');
+ return $panel
+            ->login(LoginScreenPage::class) // See which login theme you want to use
 ```
 
 ## Testing
